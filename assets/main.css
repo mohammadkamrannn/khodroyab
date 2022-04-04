@@ -33,8 +33,32 @@ body{
 .flex-jcsb{
     justify-content: space-between;
 }
+.flex-jcs{
+    justify-content: start;
+}
+.flex-jce{
+    justify-content: end;
+}
 .flex-aic{
     align-items: center;
+}
+.flex-aifs{
+    align-items: flex-start;
+}
+.flex-nw{
+    flex-wrap: nowrap;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mr-50{
+    margin-right: 50px;
+}
+.ml-50{
+    margin-left: 50px;
 }
 .k-header{
     margin-top: 5px;
@@ -90,6 +114,12 @@ span.k-location::before{
     top: 0;
     transform: scale(.7);
 }
+/* .nav{
+    flex-basis: 25%;
+} */
+.search-color{
+    flex-basis: 50%;
+}
 .k-color{
     width: 25px;
     height: 25px;
@@ -135,6 +165,48 @@ span.k-location::before{
 .k-line-nav li a{
     color: #c03320;
 }
+.search input{
+    padding: 10px;
+    width: 100%;
+    background-color: #b6b1a2;
+    border-radius: 3px;
+    color: #c03320;
+    font-size: 18px;
+    font-family: inherit;
+    outline: none;
+}
+.search input::placeholder{
+    color: #c03320;
+    opacity: 40%;
+}
+form{
+    position: relative;
+}
+.btn-search{
+    cursor: pointer;
+}
+.btn-search::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 5px;
+    top: 5px;
+    background: url(../assets/images/icon_icon.svg) no-repeat -42px 0px;
+    transform: scale(.8);
+}
+.search-text h2{
+    font-size: 35px;
+    color: #74574d;
+}
+.top-view a span{
+    background-color: #c03320;
+    color: #f5f6fc;
+    padding: 4px 10px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
 /*
 black: #1a1a1a
 red: #c03320
