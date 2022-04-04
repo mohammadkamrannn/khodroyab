@@ -1,7 +1,10 @@
 <h2>طراحی وبسایت خودرویاب به صورت دمو و نمونه کار است.</h2>
-<p>مشاهده زنده وبسایت(در حال تکمیل)</p>
+<p>
+مشاهده زنده وبسایت(در حال تکمیل)
 https://mohammadkamrannn.github.io/khodroyab/
+</p>
+
 <br>
-<span>طراحی با HTML، CSS و js</span>
+<p>طراحی با HTML، CSS و js</p>
 <br>
 <img src="khodroyab.jpg" alt="">
