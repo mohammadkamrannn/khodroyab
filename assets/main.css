@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'iranYekan';
+    src: url(../assets/fonts/iranyekanwebregular\(fanum\).ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ol, ul{
+    list-style-type: none;
+}
+body{
+    direction: rtl;
+    background-color: #f5f6fc;
+    font-family: 'iranYekan';
+    width: 1200px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.flex-jcs{
+    justify-content: center;
+}
+.flex-jcsa{
+    justify-content: space-around;
+}
+.flex-jcsb{
+    justify-content: space-between;
+}
+.flex-aic{
+    align-items: center;
+}
+.k-header{
+    margin-top: 5px;
+}
+.logo{
+    flex-basis: 10%;
+}
+.k-line{
+    border-bottom: 1px solid #c03320;
+    padding-bottom: 5px;
+    flex-basis: 90%;
+}
+.k-text h1{
+    font-size: 14px;
+    color: #c03320;
+}
+span.k-add{
+    margin-left: 50px;
+    position: relative;
+    color: #c03320;
+}
+span.k-add::before{
+    content: "";
+    background: url(../assets/images/icon_icon.svg) no-repeat 0px 0px;
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    transform: scale(.7);
+}
+.location{
+    background-color: #c03320;
+    padding: 3px 25px 3px 6px;
+    font-size: 18px;
+    color: #f5f6fc;
+    border-radius: 3px;
+}
+span.k-location{
+    position: relative;
+    margin-left: 5px;
+}
+.location a{
+    color: #f5f6fc;
+}
+span.k-location::before{
+    content: "";
+    background: url(../assets/images/icon_icon.svg) no-repeat -20px 0px;
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    transform: scale(.7);
+}
+.k-color{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #c03320;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.k-color-white{
+    background-color: #fff;
+}
+.k-color-black{
+    background-color: #000;
+}
+.k-color-gray-black{
+    background-color: #4d4d4d;
+}
+.k-color-gray{
+    background-color: #b3b3b3;
+}
+.k-color-blue{
+    background-color: #29abe2;
+}
+.k-color-blue-black{
+    background-color: #2e3192;
+}
+.k-line-nav{
+    position: relative;
+}
+.k-line-nav::before{
+    content: "";
+    width: 3px;
+    height: 100%;
+    background-color: #c03320;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+.k-line-nav li{
+    margin-bottom: 20px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.k-line-nav li a{
+    color: #c03320;
+}
+/*
+black: #1a1a1a
+red: #c03320
+brown: #74574d
+orange: #ad6d60
+gray: #b6b1a2
+white: #f5f6fc
+*/
